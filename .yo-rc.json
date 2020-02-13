@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.patient.h24",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.6.0",
+    "applicationType": "microservice",
+    "baseName": "Patients",
+    "packageName": "org.patient.h24",
+    "packageFolder": "org/patient/h24",
+    "serverPort": "21002",
+    "authenticationType": "uaa",
+    "uaaBaseName": "H24UAA",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZmFkNmI0MjNjZmVlYjQzNjQ1ZWUwMmNmZDA5NTdkNTNjNTVhYjY4MjgyYjZjYTU0NDIwMmQ1NmExY2FkYzlhMDNhZWE5NjdmYTU3N2FlMjVlNGIxZTMxZjdmMjY2OTgxNWJmOTQyOTFiYzMxN2JmNjIzOGFmZGNkMTI2MTU5Yjg=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1581574355756,
+    "testFrameworks": ["gatling"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en", "hy"],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
